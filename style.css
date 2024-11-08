@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(253, 252, 253);
+    text-align: center;
+    font-size: 13px;
+}
+
+header {
+    background-color: rgb(236, 199, 224);
+    padding: 20px;
+    
+
+}
+
+.subtitulo  {
+    font-size: 18px;
+    margin-top: 50px;
+
+}
+ 
+.sabores h1 {
+    font-size: 23px;
+    margin-top: -18px;
+}
+
+.sabores h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.imagem-topo img {
+    width: 270px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+#sabia  {
+    font-size: 17px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#sabia p {
+    margin: 30px;
+    text-align: center;
+    font-size: 17px;
+
+}
+
+.fazer img {
+    width: 280px;
+    border-radius: 50%;
+    margin-top: 35px;
+}
+
+.fazer h3 {
+    font-size: 18px;
+    margin-top: 35px;
+
+}
+
+.fazer p {
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.sugestoes img {
+    width: 250px;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  /* Estilos para telas com largura máxima de 768px */
+  .imagem-topo img {
+    width: 100%;
+  }
+}
